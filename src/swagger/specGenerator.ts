@@ -241,7 +241,7 @@ export class SpecGenerator {
       }
 
       if (!property.required) {
-        swaggerType['x-nullable'] = true;
+        // swaggerType['x-nullable'] = true;
       }
 
       properties[property.name] = swaggerType as Swagger.Schema;
